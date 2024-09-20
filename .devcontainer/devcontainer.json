@@ -1,0 +1,6 @@
+{
+  "name": "Minecraft Bedrock PocketMine-MP Server",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [19132],
+  "postCreateCommand": "bash start.sh"
+}
